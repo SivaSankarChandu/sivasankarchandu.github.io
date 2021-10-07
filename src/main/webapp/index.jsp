@@ -6,9 +6,9 @@
 </head>
 <body>
     <div class="header">
-        <a class="active" href="index.jsp" class="logo">Siva Sankar Chandu</a>
+        <a href="index.jsp" class="logo">Siva Sankar Chandu</a>
         <div class="header-right">
-          <a href="index.jsp">Home</a>
+          <a class="active" href="index.jsp">Home</a>
           <a href="Projects.jsp">Projects</a>
           <a href="DevOps.jsp">DevOps</a>
           <a href="Blog.jsp">Blog</a>
