@@ -19,7 +19,7 @@
       <div style="padding-left:20px">
         <h1>WELCOME</h1>
         <p>Now your in my Home Page</p>
-        <p>I am updating my website, please check after some days</p>
+        <p>I am updating my website, please check after some days, okay</p>
       </div>             
 </body>
 </html>
