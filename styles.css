@@ -6,30 +6,53 @@ body {
     background: #f4f4f4;
 }
 
-.container {
-    max-width: 800px;
-    margin: auto;
-    padding: 20px;
-    background: #fff;
-}
-
 header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
     text-align: center;
-    padding: 20px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
 header h1 {
     margin: 0;
 }
 
-header p {
-    margin: 5px 0;
+nav {
+    background: #444;
 }
 
-header a {
-    margin: 0 10px;
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    color: #fff;
     text-decoration: none;
-    color: #333;
+    padding: 10px 20px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background: #555;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 section {
@@ -40,6 +63,7 @@ section h2 {
     background: #333;
     color: #fff;
     padding: 10px;
+    margin: 0 -20px 20px -20px;
 }
 
 ul {
@@ -51,4 +75,17 @@ ul li {
     background: #e4e4e4;
     margin: 5px 0;
     padding: 10px;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+html {
+    scroll-behavior: smooth;
 }
