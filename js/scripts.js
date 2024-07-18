@@ -14,4 +14,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
         navLinks.forEach(link => {
             link.classList.remove('active');
-            if
+            if (link.getAttribute('href').includes(current)) {
+                link.classList.add('active');
+            }
+        });
+    });
+});
