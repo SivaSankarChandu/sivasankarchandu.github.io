@@ -3,120 +3,103 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Siva Sankar Chandu - Professional Website</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <title>Siva Sankar Chandu</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        header { background-color: #f8f8f8; padding: 10px 0; text-align: center; }
+        nav ul { list-style-type: none; padding: 0; }
+        nav ul li { display: inline; margin: 0 10px; }
+        nav ul li a { text-decoration: none; color: #333; }
+        .container { max-width: 800px; margin: auto; }
+        section { margin-bottom: 20px; }
+        h1, h2, h3 { color: #333; }
+        .contact, .skills, .experience, .projects, .blog, .other { margin-bottom: 20px; }
+        ul { margin: 0; padding: 0; list-style-type: none; }
+        ul li { margin-bottom: 10px; }
+    </style>
 </head>
 <body>
     <header>
-        <div class="container">
-            <h1>Siva Sankar Chandu</h1>
-            <nav>
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#objective">Objective</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#experience">Experience</a></li>
-                    <li><a href="#education">Education</a></li>
-                    <li><a href="#certificates">Certificates</a></li>
-                    <li><a href="#accomplishments">Accomplishments</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
+        <h1>Siva Sankar Chandu</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#other">Other</a></li>
+            </ul>
+        </nav>
     </header>
-
-    <section id="home" class="section">
-        <div class="container">
-            <h2>Welcome to My Professional Website</h2>
-            <p>Your brief introduction or tagline goes here.</p>
-        </div>
-    </section>
-
-    <section id="objective" class="section">
-        <div class="container">
-            <h2>Objective</h2>
-            <p>Junior DevOps Engineer with expertise in CI/CD pipeline development, cloud infrastructure automation, and system performance monitoring...</p>
-        </div>
-    </section>
-
-    <section id="skills" class="section">
-        <div class="container">
+    <div class="container">
+        <section id="home">
+            <h2>Home</h2>
+            <p>Welcome to my personal website. Here you'll find information about my skills, experience, projects, and more.</p>
+        </section>
+        
+        <section id="about">
+            <h2>About</h2>
+            <div class="contact">
+                <p>Email: sivasankarchandu@gmail.com</p>
+                <p>Phone: +91-9494951265</p>
+                <p>Address: Mandavalli, India</p>
+                <p>LinkedIn: <a href="https://linkedin.com/in/chandusivasankar/">linkedin.com/in/chandusivasankar</a></p>
+            </div>
+            <p>System Engineer - DevOps with 3 years of full-time experience in CI/CD pipeline development, cloud infrastructure automation, and system performance monitoring...</p>
+        </section>
+        
+        <section id="skills">
             <h2>Skills</h2>
             <ul>
-                <li>Jenkins, Git, AWS, Bitbucket, SonarQube, GCP</li>
-                <li>Kibana, Terraform, MongoDB, Zabbix</li>
-                <li>Docker, Jira, Bash/Shell Scripting, Linux</li>
-                <li>Agile, Prometheus, Kubernetes, Grafana</li>
+                <li>Jenkins</li>
+                <li>Git</li>
+                <li>AWS</li>
+                <li>Bitbucket</li>
+                <li>SonarQube</li>
+                <li>Kibana</li>
+                <li>Terraform</li>
+                <li>MongoDB</li>
+                <li>Zabbix</li>
+                <li>Docker</li>
+                <li>Jira</li>
+                <li>Bash/Shell Scripting</li>
+                <li>Linux</li>
+                <li>Agile</li>
                 <li>Microsoft 365 Admin</li>
             </ul>
-        </div>
-    </section>
-
-    <section id="experience" class="section">
-        <div class="container">
+        </section>
+        
+        <section id="experience">
             <h2>Experience</h2>
-            <h3>System Engineer - DevOps at CloudFuze, Inc</h3>
-            <p>September 2021 – Present</p>
+            <div class="experience">
+                <h3>System Engineer - DevOps at CloudFuze, Inc | Outsourced via Neutara Technologies Pvt, Ltd (September 2021 – Present)</h3>
+                <ul>
+                    <li>Developed and deployed CI/CD pipelines using Jenkins, enhancing deployment efficiency by 30%...</li>
+                    <!-- Add more experiences similarly -->
+                </ul>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
             <ul>
-                <li>Developed and deployed CI/CD pipelines using Jenkins...</li>
-                <li>Configured and managed Bitbucket repositories...</li>
+                <li>Project 1: Description of project 1...</li>
+                <li>Project 2: Description of project 2...</li>
+                <!-- Add more projects -->
             </ul>
-            <h3>AWS Intern at APSSDC</h3>
-            <p>May 2021 – Aug 2021</p>
-            <ul>
-                <li>Managed EC2 instances...</li>
-                <li>Configured security groups and VPC settings...</li>
-            </ul>
-        </div>
-    </section>
+        </section>
 
-    <section id="education" class="section">
-        <div class="container">
-            <h2>Education</h2>
-            <p>M.Tech in Computer Science and Technology, SRKR Engineering College (Sep 2017 – Feb 2020) - 76.23%</p>
-            <p>B.Tech in Computer Science and Engineering, VKR, VNB & AGK Engineering College (Sep 2014 – May 2017) - 71.22%</p>
-            <p>Diploma in Computer Engineering, AVN Polytechnic College (Aug 2014 – May 2014) - 76.9%</p>
-        </div>
-    </section>
+        <section id="blog">
+            <h2>Blog</h2>
+            <p>Coming soon...</p>
+        </section>
 
-    <section id="certificates" class="section">
-        <div class="container">
-            <h2>Certificates</h2>
-            <ul>
-                <li>Certified Jenkins Engineer (Whizlabs)</li>
-                <li>Oracle SQL and AWS Cloud Computing (Sri Sathya Sai Seva Organisations)</li>
-                <li>Python for Machine Learning (GreatLearning)</li>
-                <li>Bash Scripting Fundamentals (Whizlabs)</li>
-                <li>Git for Beginners (BitDegree)</li>
-            </ul>
-        </div>
-    </section>
-
-    <section id="accomplishments" class="section">
-        <div class="container">
-            <h2>Accomplishments</h2>
-            <ul>
-                <li>Nominated twice for the Best Employee of the Month at Neutara Technologies in 2023.</li>
-                <li>Completed a 60-day training program on Oracle SQL and AWS Cloud Computing in September 2020.</li>
-            </ul>
-        </div>
-    </section>
-
-    <section id="contact" class="section">
-        <div class="container">
-            <h2>Contact</h2>
-            <p>Email: <a href="mailto:sivasankarchandu@gmail.com">sivasankarchandu@gmail.com</a></p>
-            <p>Phone: <a href="tel:+919494951265">+91-9494951265</a></p>
-            <p>LinkedIn: <a href="https://linkedin.com/in/chandusivasankar/" target="_blank">linkedin.com/in/chandusivasankar/</a></p>
-        </div>
-    </section>
-
-    <footer>
-        <div class="container">
-            <p>&copy; 2024 Siva Sankar Chandu. All rights reserved.</p>
-        </div>
-    </footer>
-
-    <script src="js/scripts.js"></script>
+        <section id="other">
+            <h2>Other</h2>
+            <p>Additional information or sections can be added here...</p>
+        </section>
+    </div>
 </body>
 </html>
